@@ -1,6 +1,7 @@
 ## Breast Cancer Prediction Web Application
 
 A Flask-based web application that predicts breast cancer (malignant/benign) based on cell characteristics using machine learning.
+
 ![Project Screenshot](/screenshots/UI.png)
 ## Features
 
