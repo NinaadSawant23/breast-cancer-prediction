@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 import joblib
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static', template_folder='templates')
 
 # Load the trained model
 model = joblib.load('model.pkl')

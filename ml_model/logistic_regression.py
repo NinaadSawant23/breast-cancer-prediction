@@ -2,7 +2,7 @@ import pandas as pd
 import joblib
 
 # Importing the dataset
-dataset = pd.read_csv('data/breast_cancer.csv')
+dataset = pd.read_csv('../data/breast_cancer.csv')
 X = dataset.iloc[:, 1:-1].values
 y = dataset.iloc[:, -1].values
 
@@ -30,4 +30,4 @@ print(f"Accuracy: {accuracies.mean()*100}")
 print(f"Standard Deviation: {accuracies.std()*100}")
 
 # Saving the model
-joblib.dump(classifier, 'model.pkl')
+joblib.dump(classifier, '../model.pkl')
