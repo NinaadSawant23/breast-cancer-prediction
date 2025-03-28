@@ -28,6 +28,9 @@ A Flask-based web application that predicts breast cancer (malignant/benign) bas
 
 ## Dataset
 
+- 683 instances
+- 9 features 
+- Binary classification (malignant/benign)
 ## Installation
 
 1. Clone the repository:
