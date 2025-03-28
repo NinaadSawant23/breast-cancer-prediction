@@ -1,5 +1,11 @@
 ## Breast Cancer Prediction Web Application
 
+![ML](https://img.shields.io/badge/Machine-Learning-blueviolet)
+![Model](https://img.shields.io/badge/Model-Logistic_Regression-yellowgreen)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-orange)
+![Accuracy](https://img.shields.io/badge/Accuracy-96.2%25-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 A Flask-based web application that predicts breast cancer (malignant/benign) based on cell characteristics using machine learning.
 
 ![Project Screenshot](/screenshots/UI.png)
