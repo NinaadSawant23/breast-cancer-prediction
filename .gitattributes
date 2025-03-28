@@ -1,6 +1,3 @@
 *.py linguist-language=Python
-*.html linguist-language=Html
-*.js linguist-language=Javascript
-*.css linguist-language=CSS
 static/* linguist-documentation
 templates/* linguist-documentation
