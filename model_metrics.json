@@ -1,0 +1,45 @@
+{
+    "test_metrics": {
+        "confusion_matrix": [
+            [
+                84,
+                3
+            ],
+            [
+                3,
+                47
+            ]
+        ],
+        "classification_report": {
+            "2": {
+                "precision": 0.9655172413793104,
+                "recall": 0.9655172413793104,
+                "f1-score": 0.9655172413793104,
+                "support": 87.0
+            },
+            "4": {
+                "precision": 0.94,
+                "recall": 0.94,
+                "f1-score": 0.94,
+                "support": 50.0
+            },
+            "accuracy": 0.9562043795620438,
+            "macro avg": {
+                "precision": 0.9527586206896552,
+                "recall": 0.9527586206896552,
+                "f1-score": 0.9527586206896552,
+                "support": 137.0
+            },
+            "weighted avg": {
+                "precision": 0.9562043795620438,
+                "recall": 0.9562043795620438,
+                "f1-score": 0.9562043795620438,
+                "support": 137.0
+            }
+        }
+    },
+    "cross_validation_metrics": {
+        "mean_accuracy": 0.967003367003367,
+        "std_deviation": 0.019697976894447813
+    }
+}
