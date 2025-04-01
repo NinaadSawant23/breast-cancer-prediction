@@ -39,27 +39,30 @@ An end-to-end machine learning solution that leverages the Wisconsin Diagnostic 
 1. Clone the repository:
    bash
    git clone https://github.com/NinaadSawant23/breast-cancer-prediction.git
-   cd breast-cancer-prediction
+
+2. cd breast-cancer-prediction
    
-2. Create a virtual environment:
+3. Create a virtual environment:
    bash
    python -m venv venv
    source venv/bin/activate   On Windows use venv\Scripts\activate
    
-3. Install dependencies:
+4. Install dependencies:
    bash
    pip install -r requirements.txt
    
-4. Run the application:
+5. Run the application:
    bash
    python app.py
    
-5. Open your browser to:
+6. Open your browser to:
    http://127.0.0.1:5000/ 
 
 ## Usage
 
-1. Enter the following cell characteristics (values 1-10): (For Test: Click on "Load Sample Values")
+1. Enter the following cell characteristics: (For Test: Click on "Load Sample Values")
+
+   **Mean Features**
    - Radius Mean
    - Texture Mean
    - Perimeter Mean
@@ -70,6 +73,8 @@ An end-to-end machine learning solution that leverages the Wisconsin Diagnostic 
    - Concave Point Mean
    - Symmetry Mean
    - Fractal Dimension Mean
+     
+   **Standard Error (SE) Features**
    - Radius SE
    - Texture SE
    - Perimeter SE
@@ -80,6 +85,8 @@ An end-to-end machine learning solution that leverages the Wisconsin Diagnostic 
    - Concave Point SE
    - Symmetry SE
    - Fractal Dimension SE
+  
+   **Worst Features**
    - Radius Worst
    - Texture Worst
    - Perimeter Worst
@@ -91,7 +98,7 @@ An end-to-end machine learning solution that leverages the Wisconsin Diagnostic 
    - Symmetry Worst
    - Fractal Dimension Worst
 
-2. Click "Predict" to see the result
+3. Click "Predict" to see the result
 
    
 ## Model Performance
@@ -102,7 +109,7 @@ An end-to-end machine learning solution that leverages the Wisconsin Diagnostic 
   [[71, 1]
    [3, 39]]
   ```
-- For more info: navigate to breast-cancer-prediction/ml_model/model_metrics.json
+- For more info: Navigate to `breast-cancer-prediction/ml_model/model_metrics.json`
 
 ## Screenshots
 ![Project Screenshot](/screenshots/UI.png)
