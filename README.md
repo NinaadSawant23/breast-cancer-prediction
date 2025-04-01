@@ -36,7 +36,7 @@ An end-to-end machine learning solution that leverages the Wisconsin Diagnostic 
 
 1. Clone the repository:
    bash
-   git clone https://github.com/your-username/breast-cancer-prediction.git
+   git clone https://github.com/NinaadSawant23/breast-cancer-prediction.git
    cd breast-cancer-prediction
    
 2. Create a virtual environment:
@@ -53,7 +53,7 @@ An end-to-end machine learning solution that leverages the Wisconsin Diagnostic 
    python app.py
    
 5. Open your browser to:
-   http://localhost:5000
+   http://127.0.0.1:5000/ 
 
 ## Usage
 
