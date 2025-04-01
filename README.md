@@ -31,7 +31,9 @@ An end-to-end machine learning solution that leverages the Wisconsin Diagnostic 
 - 569 instances
 - 30 features 
 - Binary classification (malignant/benign)
-- Source: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic 
+- Source: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+
+  
 ## Installation
 
 1. Clone the repository:
@@ -90,6 +92,8 @@ An end-to-end machine learning solution that leverages the Wisconsin Diagnostic 
    - Fractal Dimension Worst
 
 2. Click "Predict" to see the result
+
+   
 ## Model Performance
 
 - Accuracy: 96.5%
@@ -98,6 +102,16 @@ An end-to-end machine learning solution that leverages the Wisconsin Diagnostic 
   [[71, 1]
    [3, 39]]
   ```
+- For more info: navigate to breast-cancer-prediction/ml_model/model_metrics.json
+
+## Screenshots
+![Project Screenshot](/screenshots/UI.png)
+
+
+![Project Screenshot](/screenshots/UI_2.png)
+
+
+![Project Screenshot](/screenshots/Prediction.png)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
